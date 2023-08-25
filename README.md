@@ -1,4 +1,4 @@
-# Botway MageAI Docker Image
+# Equal-IQ MageAI Docker Image
 
 > Run **botwayorg/mageai**
 
