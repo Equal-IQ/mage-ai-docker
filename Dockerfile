@@ -1,6 +1,6 @@
 FROM mageai/mageai:latest
 
-RUN mkdir -p /home/src
+RUN mkdir -p /volume
 
 EXPOSE 6789
 
