@@ -1,7 +1,3 @@
 # Equal-IQ MageAI Docker Image
 
-> Run **botwayorg/mageai**
-
-```bash
-docker run -it --rm -p 6789:6789 botwayorg/mageai
-```
+This is the docker file that rebuilds Mage ai for each new update
