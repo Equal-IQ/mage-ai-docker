@@ -14,6 +14,8 @@ WORKDIR ${MAGE_CODE_PATH}
 # Replace [project_name] with the name of your project (e.g. demo_project)
 ENV USER_CODE_PATH=${USER_CODE_PATH}
 
+RUN pip3 install -r ${USER_CODE_PATH}/requirements.txt
+
 EXPOSE 6789
 
 ENTRYPOINT [ "/app/run_app.sh", "mage", "start", "my-bot-mage-ai" ]
