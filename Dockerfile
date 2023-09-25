@@ -14,7 +14,7 @@ WORKDIR ${MAGE_CODE_PATH}
 # Replace [project_name] with the name of your project (e.g. demo_project)
 ENV USER_CODE_PATH=${USER_CODE_PATH}
 
-RUN pip3 install supabase pypdf tenacity langchain upstash_redis tiktoken retrying
+RUN pip3 install supabase pypdf tenacity langchain upstash_redis tiktoken retrying sentence_transformers
 
 EXPOSE 6789
 
